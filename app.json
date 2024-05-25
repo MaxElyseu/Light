@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "cronometro",
+    "slug": "cronometro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Este aplicativo requer acesso à câmera para controlar a lanterna.",
+        "NSMicrophoneUsageDescription": "Este aplicativo requer acesso ao microfone para reproduzir áudio."
+      },
+      "bundleIdentifier": "com.maxeyseu.cronometro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e6133fe-6f23-4400-814b-44226bed2eea"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8e6133fe-6f23-4400-814b-44226bed2eea"
+    }
+  }
+}
